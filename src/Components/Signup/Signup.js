@@ -6,7 +6,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
-import { auth } from "../../Firebase/Firebase.init";
+import auth from "../../Firebase/Firebase.init";
 import toast from "react-hot-toast";
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 

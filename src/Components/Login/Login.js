@@ -7,9 +7,10 @@ import {
   signInWithEmailAndPassword,
   signInWithPopup,
 } from "firebase/auth";
-import { auth } from "../../Firebase/Firebase.init";
+
 import toast from "react-hot-toast";
 import { AiOutlineExclamationCircle } from "react-icons/ai";
+import auth from "../../Firebase/Firebase.init";
 
 const provider = new GoogleAuthProvider();
 
